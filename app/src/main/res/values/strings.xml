@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">应用通信助手</string>
+
+    <string name="usb">USB</string>
+    <string name="mqtt">mqtt</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="com">串口通信</string>
+</resources>
