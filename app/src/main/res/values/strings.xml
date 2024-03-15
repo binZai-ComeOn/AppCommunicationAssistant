@@ -5,4 +5,14 @@
     <string name="mqtt">mqtt</string>
     <string name="bluetooth">蓝牙</string>
     <string name="com">串口通信</string>
+
+    <string name="serial_port_number">串口号</string>
+    <string name="baud">波特率</string>
+    <string name="data_bit">数据位</string>
+    <string name="check_bit">校验位</string>
+    <string name="stop_bit">停止位</string>
+    <string name="flow_control">流  控</string>
+    <string name="send_type">发送类型</string>
+    <string name="enable_serial_port">开启串口</string>
+    <string name="close_port">关闭串口</string>
 </resources>

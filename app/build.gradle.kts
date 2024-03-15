@@ -82,4 +82,6 @@ dependencies {
     implementation(DependenciesLibs.mqttClient)
     implementation(DependenciesLibs.mqttService)
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation(project(path = ":lib_serialport"))
 }

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AppCommunicationAssistant"
 include(":app")
+include(":lib_serialport")
