@@ -17,18 +17,21 @@ object DependenciesLibs {
     const val appcompat = "androidx.appcompat:appcompat:1.6.1"
     const val material = "com.google.android.material:material:1.8.0"
     const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+    const val constraintlayoutCompose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
     const val liveRuntimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
     const val activityCompose = "androidx.activity:activity-compose:1.7.0"
 
     const val composeBom = "androidx.compose:compose-bom:2024.02.02"
     const val composeUi = "androidx.compose.ui:ui"
     const val composeUiGraphics = "androidx.compose.ui:ui-graphics"
+    const val composeUiTtestJunit4 = "androidx.compose.ui:ui-test-junit4"
     const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview"
+    const val composeMaterial = "androidx.compose.material:material:1.6.4"
     const val composeMaterial3 = "androidx.compose.material3:material3"
+    const val composeUiTestManifest = "androidx.compose.ui:ui-test-manifest"
 
     // mqtt
     const val mqttClient = "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.4"
     const val mqttService = "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1"
-
 
 }

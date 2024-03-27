@@ -3,6 +3,12 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven("https://jitpack.io")
+        maven("https://dl.google.com/dl/android/maven2/")
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://maven.aliyun.com/repository/central")
+        maven("https://maven.aliyun.com/nexus/content/groups/public/")
+        maven("https://maven.aliyun.com/nexus/content/repositories/jcenter")
     }
 }
 dependencyResolutionManagement {
@@ -10,6 +16,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://jitpack.io")
+        maven("https://dl.google.com/dl/android/maven2/")
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://maven.aliyun.com/repository/central")
+        maven("https://maven.aliyun.com/nexus/content/groups/public/")
+        maven("https://maven.aliyun.com/nexus/content/repositories/jcenter")
     }
 }
 

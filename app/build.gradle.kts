@@ -62,26 +62,19 @@ dependencies {
     implementation(DependenciesLibs.composeUi)
     implementation(DependenciesLibs.composeUiGraphics)
     implementation(DependenciesLibs.composeUiToolingPreview)
+    implementation(DependenciesLibs.composeMaterial)
     implementation(DependenciesLibs.composeMaterial3)
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
-    implementation("androidx.activity:activity-compose:1.7.0")
-    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.ui:ui-graphics")
-    implementation("androidx.compose.material3:material3")
-    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+    implementation(DependenciesLibs.constraintlayoutCompose)
+    androidTestImplementation(platform(DependenciesLibs.constraintlayoutCompose))
+    androidTestImplementation(DependenciesLibs.composeUiTtestJunit4)
 
-    val composeBom = platform("androidx.compose:compose-bom:2024.02.02")
-    implementation(composeBom)
-
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    implementation("androidx.compose.ui:ui-tooling-preview")
+    debugImplementation(DependenciesLibs.composeUiToolingPreview)
+    implementation(DependenciesLibs.composeUiToolingPreview)
+    debugImplementation(DependenciesLibs.composeUiTestManifest)
 
     // mqtt
     implementation(DependenciesLibs.mqttClient)
     implementation(DependenciesLibs.mqttService)
-    debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation(project(path = ":lib_serialport"))
 }
